@@ -1,30 +1,29 @@
 const data = {
   // 🔹 Filter Info (Selected by Admin)
-  startDate: "2025-05-01",
-  endDate: "2025-05-31",
+  start_date: "2025-05-01",
+  end_date: "2025-05-31",
 
   // 1. Top Metrics
   summary: {
-    totalPartners: 4544,
-    mostActivePartners: 4544,
-    newEnrollmentRequests: 4544,
-    totalTickets: 4544,
-    newTickets: 4544,
-    openTickets: 4544,
-    closedTickets: 4544,
-    responseTime: "45m",
-    bookingInProgress: 9999,
-    ticketsInProcess: 9999,
-    totalSales: 12345678,
-    totalCasework: 12345678,
-    voidPending: 204,
-    refundPending: 204,
-    noResponsePending: 204
+    total_partners: 4544,
+    most_active_partners: 4544,
+    new_enrollment_requests: 4544,
+    total_tickets: 4544,
+    new_tickets: 4544,
+    open_tickets: 4544,
+    closed_tickets: 4544,
+    response_time: "45m",
+    booking_in_progress: 9999,
+    tickets_in_process: 9999,
+    total_sales: 12345678,
+    total_casework: 12345678,
+    void_pending: 204,
+    refund_pending: 204,
+    no_response_pending: 204
   },
 
   // 2. Monthly Growth (filtered)
-  // there are total 5 category 
-  monthlyGrowth: [
+  monthly_growth: [
     {
       category: "airlines",
       data: [
@@ -71,7 +70,7 @@ const data = {
   ],
 
   // 3. Recent Orders
-  recentOrders: [
+  recent_orders: [
     {
       product: "ABC Tour",
       status: "Delivered",
@@ -80,12 +79,12 @@ const data = {
       date: "2024-05-18",
       partner: "Mrinmoy K",
       revenue: "BDT 40,000",
-      bookedBy: "Mithun"
+      booked_by: "Mithun"
     }
   ],
 
   // 4. Recent Transactions
-  recentTransactions: [
+  recent_transactions: [
     {
       method: "Master Card",
       masked: "****2730",
@@ -93,11 +92,10 @@ const data = {
       amount: "$1,744.00",
       date: "2024-05-18"
     },
-    
   ],
 
   // 5. Agent Locations (map markers)
-  agentLocations: {
+  agent_locations: {
     markers: [
       {
         uid: "agent1",
@@ -105,13 +103,11 @@ const data = {
         coordinates: [-106.3468, 56.1304],
         color: "#78f0c0"
       },
-     
     ]
   },
 
   // 6. Recent Activity Timeline
-  recentActivity: [
+  recent_activity: [
     { time: "10:35 AM", activity: "Client meeting with Mrinmoy Krishna" },
-   
   ]
 }
