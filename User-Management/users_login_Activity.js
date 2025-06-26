@@ -1,4 +1,4 @@
-// just a demo data , add yours , add more porperties if need, ignore the unwanted properties 
+// just a demo data  , add yours formate , add more porperties if need, ignore the unwanted properties 
 
 
 const userActivityResponse = {
