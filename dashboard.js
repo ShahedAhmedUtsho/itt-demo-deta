@@ -110,4 +110,11 @@ const data = {
   recent_activity: [
     { time: "10:35 AM", activity: "Client meeting with Mrinmoy Krishna" },
   ]
+   // 7. Latets notification 
+  notifications : [
+  {
+    uid : "52525" ,
+    title: "payment resieved"
+  }
+  ]
 }
