@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "name": "john_doe",
+      "email": "john.doe@example.com",
+      "partner": "acme_corp",
+      "user_type": "admin",
+      "mobile": "+1234567890",
+      "country": "usa",
+      "ip_address": "192.168.1.10",
+      "last_login": "2024-06-10T14:23:00Z",
+      "login_device": "web",
+      "status": "active"
+    }
+  ],
+  // meta for pagination 
+  "meta": {
+  "total_items": 5,
+  "total_pages": 2,       // ceil(5/3) = 2 pages
+  "current_page": 2,
+  "per_page": 3,
+  "has_next": false,      // On last page
+  "has_prev": true        // Not on first page
+}
+} 
